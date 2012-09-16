@@ -1,0 +1,12 @@
+SMAP
+TaschenrechnerFeatureZweiZahlenZusammenzählen.java
+Feature
+*S Feature
+*F
++ 0 Taschenrechner.feature
+src/test/java/de/schdef/slashcoding/jnario/example/Taschenrechner.feature
+*L
+17:24,2
+19:32,8
+21:46,11
+*E
