@@ -10,7 +10,7 @@ Als Matheanfänger
 benötige ich einen Taschenrechner welcher die Basisrechenarten beherrscht
 damit ich meine Berechnungen überprüfen kann 
 
-Scenario: Zwei Zahlen zusammenzählen
+Scenario: Zwei Zahlen zusammenzaehlen
 	Calculator calculator
 	int result
 Given ein Taschenrechner

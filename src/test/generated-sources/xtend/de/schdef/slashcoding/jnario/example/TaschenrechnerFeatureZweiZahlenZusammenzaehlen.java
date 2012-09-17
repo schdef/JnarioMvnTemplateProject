@@ -14,9 +14,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(FeatureRunner.class)
-@Named("Scenario: Zwei Zahlen zusammenz\u00C3\u00A4hlen")
+@Named("Scenario: Zwei Zahlen zusammenzaehlen")
 @SuppressWarnings("all")
-public class TaschenrechnerFeatureZweiZahlenZusammenz√Hlen {
+public class TaschenrechnerFeatureZweiZahlenZusammenzaehlen {
   @Test
   @Order(0)
   @Named("Given ein Taschenrechner")
@@ -27,8 +27,8 @@ public class TaschenrechnerFeatureZweiZahlenZusammenz√Hlen {
   
   @Test
   @Order(1)
-  @Named("When ich zwei Zahlen \"20\" und \"70\" eingebe und auf Addieren dr\u00C3\u00BCcke")
-  public void whenIchZweiZahlen20Und70EingebeUndAufAddierenDr√Cke() {
+  @Named("When ich zwei Zahlen \"20\" und \"70\" eingebe und auf Addieren dr\u00FCcke")
+  public void whenIchZweiZahlen20Und70EingebeUndAufAddierenDr√ºcke() {
       StepArguments _stepArguments = new StepArguments("20", "70");
       final StepArguments args = _stepArguments;
       String _first = JnarioIterableExtensions.<String>first(args);

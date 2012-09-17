@@ -23,9 +23,9 @@ public class ZahlenAddierenSpec {
   }.apply();
   
   @Test
-  @Named("Wenn ich mit einem Taschenrechner 1 und 1 zusammenz\\u00E4hle, dann erhalte ich 2")
+  @Named("Wenn ich mit einem Taschenrechner 1 und 1 zusammenzaehle, dann erhalte ich 2")
   @Order(99)
-  public void wennIchMitEinemTaschenrechner1Und1ZusammenzähleDannErhalteIch2() throws Exception {
+  public void wennIchMitEinemTaschenrechner1Und1ZusammenzaehleDannErhalteIch2() throws Exception {
     int _add = this.calc.add(1, 1);
     boolean _should_be = Should.should_be(Integer.valueOf(_add), Integer.valueOf(2));
     Assert.assertTrue("\nExpected calc.add(1, 1) should be 2 but"
